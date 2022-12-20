@@ -1,6 +1,21 @@
 body
 {
-    color:deeppink;
-    text-align: center;
-    font-family: 'Arial';
+    color:#333;/*Se le asigna color gris oscuro al texto*/
+    text-align: center; /*Texto centrado*/
+    font-family: 'Arial'; /*Fuente de texto Arial*/
+    font-size: 16px; /*Tamaño de texto de párrafo*/
+    margin: 0; /*Margen superior del contenedor*/
+    padding: 0;
+}
+#container /*Propiedades del contenedor (caja)*/
+{
+    width: 70%; /*Ancho caja*/
+    padding: 1em; /*espacio de relleno requerido por todos los lados de un elemento*/
+    text-align: left; /*Texto alineado a la izquierda*/
+    border: 1px solid #DDD; /*Ancho del borde de la caja*/
+    margin: 0 auto;
+}
+#container h1
+{
+    font-size: 20px; /*Tamaño del título*/
 }
