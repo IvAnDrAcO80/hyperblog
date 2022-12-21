@@ -1,6 +1,6 @@
 body
 {
-    color:#333;/*Se le asigna color gris oscuro al texto*/
+    color:blue;/*Se le asigna color gris oscuro al texto*/
     text-align: center; /*Texto centrado*/
     font-family: 'Arial'; /*Fuente de texto Arial*/
     font-size: 16px; /*Tamaño de texto de párrafo*/
