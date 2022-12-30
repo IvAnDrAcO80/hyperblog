@@ -1,21 +1,30 @@
 body
 {
-    color: #333
+    background: #1e1f24; /*Color fondo*/
+    color: #333;
     text-align: center; /*Texto centrado*/
     font-family: 'Arial'; /*Fuente de texto Arial*/
     font-size: 16px; /*Tamaño de texto de párrafo*/
     margin: 0; /*Margen superior del contenedor*/
     padding: 0;
 }
+
 #cabecera
 {
-    background: #33a;/*Color fondo*/
-    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);/*https://www.cssmatic.com/box-shadow*/
+    background: #37488b;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);/*https://www.cssmatic.com/box-shadow*/
     color: white; /*Color de la letra*/
     font-weight: bold; /*Negrilla del texto*/
     margin: 0; /*margen izq*/
-    padding: 0.5em /*Espacio de relleno entre bordes y texto*/
+    padding: 0.5em;/*Espacio de relleno entre bordes y texto*/
 }
+
+#cabecera #logo
+{
+    width:20px;
+    vertical-align: middle;
+}
+
 #cabecera #tagline
 {
     padding: 0 0 0 1em;
@@ -25,7 +34,7 @@ body
 #container /*Propiedades del contenedor (caja)*/
 {
     width: 70%; /*Ancho caja*/
-    padding: 1em; /*espacio de relleno requerido por todos los lados de un elemento*/
+    padding: 0; /*espacio de relleno requerido por todos los lados de un elemento*/
     text-align: left; /*Texto alineado a la izquierda*/
     border: 1px solid #DDD; /*Ancho del borde de la caja*/
     margin: 0 auto;
@@ -36,5 +45,6 @@ body
 }
 #post
 {
+    background: white;
     padding: 1em;
 }
