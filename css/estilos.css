@@ -19,7 +19,7 @@ body
     padding: 0.5em;/*Espacio de relleno entre bordes y texto*/
 }
 
-#cabecera #logo
+#cabecera  #logo
 {
     width:20px;
     vertical-align: middle;
